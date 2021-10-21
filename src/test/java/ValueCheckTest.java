@@ -1,7 +1,7 @@
 import org.junit.Assert;
 import org.testng.annotations.Test;
 
-public class ValueCheck {
+public class ValueCheckTest {
 
 
     @Test
