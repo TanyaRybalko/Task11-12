@@ -1,6 +1,6 @@
 public class FizzBuzzWoof {
 
-    public void FizzBuzzWoof(int n) {
+    public String FizzBuzzWoof(int n) {
 
         for (int i = 1; i <= n; i++) {
             if (i % 3 == 0) {
@@ -26,5 +26,6 @@ public class FizzBuzzWoof {
                 System.out.print(i + ",");
             }
         }
+        return null;
     }
 }

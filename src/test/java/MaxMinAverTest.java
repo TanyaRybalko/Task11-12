@@ -1,5 +1,7 @@
+import jdk.swing.interop.SwingInterOpUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.w3c.dom.ls.LSOutput;
 
 import java.util.Arrays;
 
@@ -20,6 +22,7 @@ public class MaxMinAverTest {
 
             Assert.assertEquals(actualResult, expectedResult);
 
+            System.out.println();
 
         }
 
